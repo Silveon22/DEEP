@@ -1,0 +1,238 @@
+[
+  {
+    "name": "deep:freezer/raw_pork_to_frozen_pork",
+    "type": "deep:freezing/freezer",
+    "input": {
+      "stack": {
+        "id": "minecraft:item/food_porkchop_raw"
+      }
+    },
+    "output": {
+      "id": "deep:item/food_porkchop_frozen"
+    }
+  },
+  {
+    "name": "deep:freezer/cooked_pork_to_frozen_pork",
+    "type": "deep:freezing/freezer",
+    "input": {
+      "stack": {
+        "id": "minecraft:item/food_porkchop_cooked"
+      }
+    },
+    "output": {
+      "id": "deep:item/food_porkchop_frozen"
+    }
+  },
+  {
+    "name": "deep:freezer/raw_sardine_to_frozen_sardine",
+    "type": "deep:freezing/freezer",
+    "input": {
+      "stack": {
+        "id": "deep:item/sardine_raw"
+      }
+    },
+    "output": {
+      "id": "deep:item/food_sardine_frozen"
+    }
+  },
+  {
+    "name": "deep:freezer/cooked_sardine_to_frozen_sardine",
+    "type": "deep:freezing/freezer",
+    "input": {
+      "stack": {
+        "id": "deep:item/sardine_cooked"
+      }
+    },
+    "output": {
+      "id": "deep:item/food_sardine_frozen"
+    }
+  },
+  {
+    "name": "deep:freezer/raw_trout_to_frozen_trout",
+    "type": "deep:freezing/freezer",
+    "input": {
+      "stack": {
+        "id": "minecraft:item/food_fish_raw"
+      }
+    },
+    "output": {
+      "id": "deep:item/food_trout_frozen"
+    }
+  },
+  {
+    "name": "deep:freezer/cooked_trout_to_frozen_trout",
+    "type": "deep:freezing/freezer",
+    "input": {
+      "stack": {
+        "id": "minecraft:item/food_fish_cooked"
+      }
+    },
+    "output": {
+      "id": "deep:item/food_trout_frozen"
+    }
+  },
+  {
+    "name": "deep:freezer/raw_bass_to_frozen_bass",
+    "type": "deep:freezing/freezer",
+    "input": {
+      "stack": {
+        "id": "deep:item/bass_raw"
+      }
+    },
+    "output": {
+      "id": "deep:item/food_bass_frozen"
+    }
+  },
+  {
+    "name": "deep:freezer/cooked_bass_to_frozen_bass",
+    "type": "deep:freezing/freezer",
+    "input": {
+      "stack": {
+        "id": "deep:item/bass_cooked"
+      }
+    },
+    "output": {
+      "id": "deep:item/food_bass_frozen"
+    }
+  },
+  {
+    "name": "deep:freezer/cake_to_frozen_cake",
+    "type": "deep:freezing/freezer",
+    "input": {
+      "stack": {
+        "id": "minecraft:item/food_cake"
+      }
+    },
+    "output": {
+      "id": "deep:item/food_cake_frozen"
+    }
+  },
+  {
+    "name": "deep:freezer/pumpkin_pie_to_frozen_pumpkin_pie",
+    "type": "deep:freezing/freezer",
+    "input": {
+      "stack": {
+        "id": "minecraft:item/food_pumpkin_pie"
+      }
+    },
+    "output": {
+      "id": "deep:item/food_pumpkin_pie_frozen"
+    }
+  },
+  {
+    "name": "deep:freezer/cookie_to_frozen_cookie",
+    "type": "deep:freezing/freezer",
+    "input": {
+      "stack": {
+        "id": "minecraft:item/food_cookie"
+      }
+    },
+    "output": {
+      "id": "deep:item/food_cookie_frozen"
+    }
+  },
+  {
+    "name": "deep:freezer/apple_to_frozen_apple",
+    "type": "deep:freezing/freezer",
+    "input": {
+      "stack": {
+        "id": "minecraft:item/food_apple"
+      }
+    },
+    "output": {
+      "id": "deep:item/food_apple_frozen"
+    }
+  },
+  {
+    "name": "deep:freezer/cherry_to_frozen_cherry",
+    "type": "deep:freezing/freezer",
+    "input": {
+      "stack": {
+        "id": "minecraft:item/food_cherry"
+      }
+    },
+    "output": {
+      "id": "deep:item/food_cherry_frozen"
+    }
+  },
+  {
+    "name": "deep:freezer/bread_to_frozen_bread",
+    "type": "deep:freezing/freezer",
+    "input": {
+      "stack": {
+        "id": "minecraft:item/food_bread"
+      }
+    },
+    "output": {
+      "id": "deep:item/food_bread_frozen"
+    }
+  },
+  {
+    "name": "deep:freezer/cobble_stone_to_cobble_permafrost",
+    "type": "deep:freezing/freezer",
+    "input": {
+      "group": "minecraft:cobblestones"
+    },
+    "output": {
+      "id": "minecraft:block/cobble_permafrost"
+    }
+  },
+  {
+    "name": "deep:freezer/stone_to_permafrost",
+    "type": "deep:freezing/freezer",
+    "input": {
+      "group": "minecraft:stones"
+    },
+    "output": {
+      "id": "minecraft:block/permafrost"
+    }
+  },
+  {
+    "name": "deep:freezer/igneous_netherrack_to_netherrack",
+    "type": "deep:freezing/freezer",
+    "input": {
+      "stack": {
+        "id": "minecraft:block/cobble_netherrack_igneous"
+      }
+    },
+    "output": {
+      "id": "minecraft:block/cobble_netherrack"
+    }
+  },
+  {
+    "name": "deep:freezer/jackolantern_to_carved_pumpkin",
+    "type": "deep:freezing/freezer",
+    "input": {
+      "stack": {
+        "id": "minecraft:block/pumpkin_carved_active"
+      }
+    },
+    "output": {
+      "id": "minecraft:block/pumpkin_carved_idle"
+    }
+  },
+  {
+    "name": "deep:freezer/red_to_blue_clay",
+    "type": "deep:freezing/freezer",
+    "input": {
+      "stack": {
+        "id": "deep:item/clay_red"
+      }
+    },
+    "output": {
+      "id": "minecraft:item/clay"
+    }
+  },
+  {
+    "name": "deep:freezer/snowball_to_hail",
+    "type": "deep:freezing/freezer",
+    "input": {
+      "stack": {
+        "id": "minecraft:item/ammo_snowball"
+      }
+    },
+    "output": {
+      "id": "deep:item/ammo_hail"
+    }
+  }
+]

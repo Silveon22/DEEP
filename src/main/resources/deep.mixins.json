@@ -1,0 +1,40 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "silveon22.deep.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ArmorTickMixin",
+    "BiomeMixin",
+    "BiomeNetherMixin",
+    "BiomeOutbackMixin",
+    "CavesLargeFeatureMixin",
+    "ChunkDecoratorNetherMixin",
+    "ChunkDecoratorOverworldMixin",
+    "EntityRenderDispatcherMixin",
+    "FurnaceFuelMixin",
+    "ItemToolAxeBismuthMixin",
+    "ItemToolHoeBismuthMixin",
+    "ItemToolPickaxeBismuthMixin",
+    "ItemToolShovelBismuthMixin",
+    "ItemToolShovelMixin",
+    "ItemToolSwordBismuthMixin",
+    "LabyrinthGenerationMixin",
+    "LabyrinthLootMixin",
+    "MobCowHostileMixin",
+    "PlayerMixin",
+    "SurfaceGeneratorOverworldMixin",
+    "WorldFeatureClayMixin",
+    "WorldFeatureDungeonMixin",
+    "WorldFeatureOreMixin"
+  ],
+  "client": [
+    "DynamicTexturesMixin",
+    "GuidebookSectionMixin",
+    "PlayerControllerDrillReachMixin",
+    "PlayerLocalMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

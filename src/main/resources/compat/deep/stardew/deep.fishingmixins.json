@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "silveon22.deep.compat.fishing",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "EntityFishingBobberMixin"
+  ]
+}

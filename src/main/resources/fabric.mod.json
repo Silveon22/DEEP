@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "deep",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "DEEP",
+  "description": "A mod that adds new materials, decorative blocks, recipes, and more to BTA.",
   "authors": [
-    "Turnip Labs"
+    "Silvycakes"
   ],
   "contact": {
     "homepage": "",
@@ -14,25 +14,40 @@
   },
 
 	"icon": "icon.png",
-  "license": "CC0-1.0",
+  "license": "MIT",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"silveon22.deep.Deep"
     ],
+		"preLaunch": [
+			"silveon22.deep.DeepLoadMixins"
+		],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"silveon22.deep.Deep"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"silveon22.deep.Deep"
+		],
+		"beforeClientStart": [
+			"silveon22.deep.Deep"
+		],
+		"afterClientStart": [
+			"silveon22.deep.Deep"
+		],
+		"afterItemInit": [
+			"silveon22.deep.item.DEEPItems"
+		],
+		"initModels": [
+			"silveon22.deep.DEEPModels"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"silveon22.deep.DEEPRecipes"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+      "deep.mixins.json"
   ],
 
   "depends": {

@@ -1,0 +1,170 @@
+[
+  {
+    "name": "deep:brick_oven/raw_pork_to_cooked_pork",
+    "type": "deep:baking/brick_oven",
+    "input": {
+      "stack": {
+        "id": "minecraft:item/food_porkchop_raw"
+      }
+    },
+    "output": {
+      "id": "minecraft:item/food_porkchop_cooked"
+    }
+  },
+  {
+    "name": "deep:brick_oven/frozen_pork_to_cooked_pork",
+    "type": "deep:baking/brick_oven",
+    "input": {
+      "stack": {
+        "id": "deep:item/food_porkchop_frozen"
+      }
+    },
+    "output": {
+      "id": "minecraft:item/food_porkchop_cooked"
+    }
+  },
+  {
+    "name": "deep:brick_oven/raw_sardine_to_cooked_sardine",
+    "type": "deep:baking/brick_oven",
+    "input": {
+      "stack": {
+        "id": "deep:item/sardine_raw"
+      }
+    },
+    "output": {
+      "id": "deep:item/sardine_cooked"
+    }
+  },
+  {
+    "name": "deep:brick_oven/frozen_sardine_to_cooked_sardine",
+    "type": "deep:baking/brick_oven",
+    "input": {
+      "stack": {
+        "id": "deep:item/food_sardine_frozen"
+      }
+    },
+    "output": {
+      "id": "deep:item/sardine_cooked"
+    }
+  },
+  {
+    "name": "deep:brick_oven/raw_trout_to_cooked_trout",
+    "type": "deep:baking/brick_oven",
+    "input": {
+      "stack": {
+        "id": "minecraft:item/food_fish_raw"
+      }
+    },
+    "output": {
+      "id": "minecraft:item/food_fish_cooked"
+    }
+  },
+  {
+    "name": "deep:brick_oven/frozen_trout_to_cooked_trout",
+    "type": "deep:baking/brick_oven",
+    "input": {
+      "stack": {
+        "id": "deep:item/food_trout_frozen"
+      }
+    },
+    "output": {
+      "id": "minecraft:item/food_fish_cooked"
+    }
+  },
+  {
+    "name": "deep:brick_oven/raw_bass_to_cooked_bass",
+    "type": "deep:baking/brick_oven",
+    "input": {
+      "stack": {
+        "id": "deep:item/bass_raw"
+      }
+    },
+    "output": {
+      "id": "deep:item/bass_cooked"
+    }
+  },
+  {
+    "name": "deep:brick_oven/frozen_bass_to_cooked_bass",
+    "type": "deep:baking/brick_oven",
+    "input": {
+      "stack": {
+        "id": "deep:item/food_bass_frozen"
+      }
+    },
+    "output": {
+      "id": "deep:item/bass_cooked"
+    }
+  },
+  {
+    "name": "deep:brick_oven/frozen_bread_to_bread",
+    "type": "deep:baking/brick_oven",
+    "input": {
+      "stack": {
+        "id": "deep:item/food_bread_frozen"
+      }
+    },
+    "output": {
+      "id": "minecraft:item/food_bread"
+    }
+  },
+  {
+    "name": "deep:brick_oven/frozen_cookie_to_cookie",
+    "type": "deep:baking/brick_oven",
+    "input": {
+      "stack": {
+        "id": "deep:item/food_cookie_frozen"
+      }
+    },
+    "output": {
+      "id": "minecraft:item/food_cookie"
+    }
+  },
+  {
+    "name": "deep:brick_oven/frozen_cake_to_cake",
+    "type": "deep:baking/brick_oven",
+    "input": {
+      "stack": {
+        "id": "deep:item/food_cake_frozen"
+      }
+    },
+    "output": {
+      "id": "minecraft:item/food_cake"
+    }
+  },
+  {
+    "name": "deep:brick_oven/frozen_pumpkin_pie_to_pumpkin_pie",
+    "type": "deep:baking/brick_oven",
+    "input": {
+      "stack": {
+        "id": "deep:item/food_pumpkin_pie_frozen"
+      }
+    },
+    "output": {
+      "id": "minecraft:item/food_pumpkin_pie"
+    }
+  },
+  {
+    "name": "deep:brick_oven/frozen_apple_to_apple",
+    "type": "deep:baking/brick_oven",
+    "input": {
+      "stack": {
+        "id": "deep:item/food_apple_frozen"
+      }
+    },
+    "output": {
+      "id": "minecraft:item/food_apple"
+    }
+  },
+  {
+    "name": "deep:brick_oven/frozen_cherry_to_cherry",
+    "type": "deep:baking/brick_oven",
+    "input": {
+      "stack": {
+        "id": "deep:item/food_cherry_frozen"
+      }
+    },
+    "output": {
+      "id": "minecraft:item/food_cherry"
+    }
+  }
+]

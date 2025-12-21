@@ -1,0 +1,87 @@
+{
+  "mob.shade.whisper": {
+    "subtitle": "deep.subtitles.mob.shade.whisper",
+    "sounds": [
+      "mob/shade/whisper.ogg"
+    ]
+  },
+  "mob.shade.hurt": {
+    "subtitle": "deep.subtitles.mob.shade.hurt",
+    "sounds": [
+      "mob/shade/hurt1.ogg"
+    ]
+  },
+  "mob.shade.death": {
+    "subtitle": "deep.subtitles.mob.shade.death",
+    "sounds": [
+      "mob/shade/death1.ogg"
+    ]
+  },
+  "mob.popper.pop": {
+    "subtitle": "deep.subtitles.mob.popper.pop",
+    "sounds": [
+      "mob/popper/pop1.ogg",
+      "mob/popper/pop2.ogg"
+    ]
+  },
+  "mob.popper.hurt": {
+    "subtitle": "deep.subtitles.mob.popper.hurt",
+    "sounds": [
+      "mob/popper/hurt1.ogg"
+    ]
+  },
+  "mob.popper.death": {
+    "subtitle": "deep.subtitles.mob.popper.death",
+    "sounds": [
+      "mob/popper/death1.ogg"
+    ]
+  },
+  "mob.elder.skeleton.say": {
+    "subtitle": "deep.subtitles.mob.elder.skeleton.say",
+    "sounds": [
+      "mob/elder_skeleton/say1.ogg",
+      "mob/elder_skeleton/say2.ogg",
+      "mob/elder_skeleton/say3.ogg"
+    ]
+  },
+  "mob.elder.skeleton.hurt": {
+    "subtitle": "deep.subtitles.mob.elder.skeleton.hurt",
+    "sounds": [
+      "mob/elder_skeleton/hurt3.ogg",
+      "mob/elder_skeleton/hurt4.ogg"
+    ]
+  },
+  "mob.elder.skeleton.death": {
+    "subtitle": "deep.subtitles.mob.elder.skeleton.death",
+    "sounds": [
+      "mob/elder_skeleton/death1.ogg"
+    ]
+  },
+  "mob.werewolf.say": {
+    "subtitle": "deep.subtitles.mob.werewolf.say",
+    "sounds": [
+      "mob/werewolf/say1.ogg",
+      "mob/werewolf/say2.ogg",
+      "mob/werewolf/say3.ogg"
+    ]
+  },
+  "mob.werewolf.hurt": {
+    "subtitle": "deep.subtitles.mob.werewolf.hurt",
+    "sounds": [
+      "mob/werewolf/hurt1.ogg",
+      "mob/werewolf/hurt2.ogg"
+    ]
+  },
+  "mob.werewolf.death": {
+    "subtitle": "deep.subtitles.mob.werewolf.death",
+    "sounds": [
+      "mob/werewolf/death1.ogg"
+    ]
+  },
+   "mob.snowbomination.hail.launch": {
+    "subtitle": "deep.subtitles.mob.snowbomination.hail.launch",
+    "sounds": [
+      "mob/snowbomination/hail_launch.ogg"
+    ]
+  }
+}

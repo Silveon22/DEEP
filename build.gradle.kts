@@ -9,6 +9,7 @@ plugins {
 
 val lwjglVersion = "3.3.4"
 
+
 val lwjglNatives = when {
     Os.isFamily(Os.FAMILY_UNIX) && !Os.isFamily(Os.FAMILY_MAC) -> "natives-linux"
     Os.isFamily(Os.FAMILY_WINDOWS) -> "natives-windows"
@@ -105,10 +106,10 @@ dependencies {
     implementation("com.google.guava:guava:33.0.0-jre")
     implementation("com.google.code.gson:gson:2.10.1")
 
-    val log4jVersion = "2.20.0"
-    implementation("org.apache.logging.log4j:log4j-core:$log4jVersion")
-    implementation("org.apache.logging.log4j:log4j-api:$log4jVersion")
-    implementation("org.apache.logging.log4j:log4j-1.2-api:$log4jVersion")
+	var log4jVersion = "2.20.0"
+	implementation("org.apache.logging.log4j:log4j-core:${log4jVersion}")
+	implementation("org.apache.logging.log4j:log4j-api:${log4jVersion}")
+	implementation("org.apache.logging.log4j:log4j-1.2-api:${log4jVersion}")
 
     implementation("org.apache.commons:commons-lang3:3.12.0")
     include("org.apache.commons:commons-lang3:3.12.0")
