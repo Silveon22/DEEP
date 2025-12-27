@@ -47,6 +47,7 @@ public class Deep implements ModInitializer, RecipeEntrypoint, GameStartEntrypoi
 		EntityHelper.createEntity(MobTruffle.class, NamespaceID.getPermanent(MOD_ID, "truffle"), "entity.deep.truffle");
 		EntityHelper.createEntity(MobSnowbomination.class, NamespaceID.getPermanent(MOD_ID, "snowbomination"), "entity.deep.snowbomination");
 		EntityHelper.createEntity(MobBanditZombie.class, NamespaceID.getPermanent(MOD_ID, "bandit_zombie"), "entity.deep.zombie.bandit");
+		EntityHelper.createEntity(MobWasp.class, NamespaceID.getPermanent(MOD_ID, "wasp"), "entity.deep.wasp");
 		EntityHelper.createTileEntity(TileEntityFreezer.class, NamespaceID.getPermanent(MOD_ID, "freezer"));
 		EntityHelper.createTileEntity(TileEntityBrickOven.class, NamespaceID.getPermanent(MOD_ID, "brick_oven"));
 
@@ -89,6 +90,8 @@ public class Deep implements ModInitializer, RecipeEntrypoint, GameStartEntrypoi
 		MobInfoRegistry.register(MobOutbackZombie.class, "guidebook.section.deep.mob.zombie.outback.name", "guidebook.section.deep.mob.zombie.outback.desc", 20, 300, new MobInfoRegistry.MobDrop[]{new MobInfoRegistry.MobDrop(new ItemStack(Items.CLOTH), 0.66F, 1, 2)});
 		MobInfoRegistry.register(MobBanditZombie.class, "guidebook.section.deep.mob.zombie.bandit.name", "guidebook.section.deep.mob.zombie.bandit.desc", 34, 1000, new MobInfoRegistry.MobDrop[]{new MobInfoRegistry.MobDrop(new ItemStack(Items.CLOTH), 0.66F, 1, 2), new MobInfoRegistry.MobDrop(new ItemStack(DEEPItems.ammoBullet), 0.66F, 1, 2)});
 		MobInfoRegistry.register(MobSnowbomination.class, "guidebook.section.deep.mob.snowbomination.name", "guidebook.section.deep.mob.snowbomination.desc", 40, 1000, new MobInfoRegistry.MobDrop[]{new MobInfoRegistry.MobDrop(new ItemStack(DEEPItems.ammoHail), 0.66F, 1, 2)});
+		MobInfoRegistry.register(MobWasp.class, "guidebook.section.deep.mob.wasp.name", "guidebook.section.deep.mob.wasp.desc", 12, 500, new MobInfoRegistry.MobDrop[]{new MobInfoRegistry.MobDrop(new ItemStack(DEEPItems.honeycomb), 0.66F, 1, 2)});
+
 
 		MobInfoRegistry.register(MobPopper.class, "guidebook.section.deep.mob.popper.name", "guidebook.section.deep.mob.popper.desc", 50, 1000, new MobInfoRegistry.MobDrop[]{new MobInfoRegistry.MobDrop(new ItemStack(Items.SULPHUR), 0.66F, 1, 2)});
 		MobInfoRegistry.register(MobWisp.class, "guidebook.section.deep.mob.wisp.name", "guidebook.section.deep.mob.wisp.desc", 12, 500, new MobInfoRegistry.MobDrop[]{new MobInfoRegistry.MobDrop(new ItemStack(Items.SULPHUR), 0.66F, 1, 2)});

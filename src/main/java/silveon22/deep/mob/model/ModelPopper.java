@@ -26,7 +26,7 @@ public class ModelPopper extends ModelBase {
 		this.head.addBox(-4.0F, -15.0F, -2.0F, 8, 12, 4, 5F + expansion);
 		this.head.setRotationPoint(0.0F, (float)yOff, 0.0F);
 		this.hair = new Cube(32, 0);
-		this.hair.addBox(-4.0F, -15.0F, -2.0F, 8, 12, 4, 5F + expansion + 0.5F);
+		this.hair.addBox(-4.0F, -15.0F, -2.0F, 8, 12, 4, 5.5F + expansion);
 		this.hair.setRotationPoint(0.0F, (float)yOff, 0.0F);
 		this.body = new Cube(16, 16);
 		this.body.addBox(-4.0F, 2.0F, -2.0F, 8, 12, 4, expansion);
@@ -56,8 +56,15 @@ public class ModelPopper extends ModelBase {
 	}
 
 	public void setupAnimation(float limbSwing, float limbYaw, float limbPitch, float headYaw, float headPitch, float scale) {
-		this.head.yRot = headYaw / 57.29578F + MathHelper.cos(limbSwing * 0.6662F) * 0.4F * limbYaw;
-		this.head.xRot = headPitch / 57.29578F + MathHelper.cos(limbSwing * 0.6662F) * 0.6F * limbYaw;
+		float var7 = MathHelper.sin(this.onGround * (float)Math.PI);
+		float var8 = MathHelper.sin((1.0F - (1.0F - this.onGround) * (1.0F - this.onGround)) * (float)Math.PI);
+		this.head.zRot = 0.0F;
+		this.head.yRot = headYaw / 57.29578F + (0.1F - var7 * 0.6F) + MathHelper.cos(limbSwing * 0.6662F) * 0.2F * limbYaw;
+		this.head.xRot = headPitch / 57.29578F -(-(float)Math.PI * 2F) + MathHelper.cos(limbSwing * 0.6662F) * 0.6F * limbYaw;
+		Cube var10000 = this.head;
+		var10000.xRot -= var7 * 1.2F - var8 * 0.4F;
+		var10000.zRot += MathHelper.cos(limbPitch * 0.09F) * 0.25F + 0.05F;
+		var10000.xRot += MathHelper.sin(limbPitch * 0.067F) * 0.25F;
 		this.leg1.xRot = MathHelper.cos(limbSwing * 0.6662F) * 1.4F * limbYaw;
 		this.leg2.xRot = MathHelper.cos(limbSwing * 0.6662F + (float)Math.PI) * 1.4F * limbYaw;
 		this.leg3.xRot = MathHelper.cos(limbSwing * 0.6662F + (float)Math.PI) * 1.4F * limbYaw;

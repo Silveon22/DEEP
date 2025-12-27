@@ -11,6 +11,7 @@ import net.minecraft.core.item.tool.ItemToolPickaxe;
 import net.minecraft.core.player.inventory.slot.Slot;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
+import silveon22.deep.DeepAchievements;
 import silveon22.deep.item.DEEPItems;
 
 @Mixin(value = ItemToolAxe.class, remap = false)
@@ -44,6 +45,7 @@ public class ItemToolAxeBismuthMixin extends ItemTool {
 					if (grabbedItem.stackSize <= 0) {
 						player.inventory.setHeldItemStack((ItemStack)null);
 					}
+					player.addStat(DeepAchievements.BISMUTH_REPAIR, 1);
 				}
 			}
 

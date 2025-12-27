@@ -15,6 +15,7 @@ public class ModelWisp extends ModelBase {
 		byte yOff = -16;
 		this.body = new Cube(0, 0);
 		this.body.addBox(-4.0F, -12F, -4.0F, 8, 8, 8);
+		this.body.setRotationPoint(0.0F, 8.0F, 0.0F);
 		Cube var10000 = this.body;
 		var10000.y += (float)(24 + yOff);
 

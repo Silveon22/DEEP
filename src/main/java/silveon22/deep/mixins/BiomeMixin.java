@@ -37,6 +37,8 @@ public class BiomeMixin {
 		this.spawnableMonsterList.add(new SpawnListEntry(MobBeetle.class, 8));
 		this.spawnableMonsterList.add(new SpawnListEntry(MobOutbackZombie.class, 10));
 		this.spawnableMonsterList.add(new SpawnListEntry(MobSnowbomination.class, 3));
+		this.spawnableMonsterList.add(new SpawnListEntry(MobBanditZombie.class, 3));
+		this.spawnableMonsterList.add(new SpawnListEntry(MobWasp.class, 200));
 		this.spawnableCreatureList.add(new SpawnListEntry(MobTruffle.class, 25));
 		this.spawnableWaterCreatureList.add(new SpawnListEntry(MobJellyfish.class, 20));
 

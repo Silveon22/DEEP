@@ -11,6 +11,7 @@
     "CavesLargeFeatureMixin",
     "ChunkDecoratorNetherMixin",
     "ChunkDecoratorOverworldMixin",
+    "EntityItemMixin",
     "EntityRenderDispatcherMixin",
     "FurnaceFuelMixin",
     "ItemToolAxeBismuthMixin",
@@ -23,6 +24,8 @@
     "LabyrinthLootMixin",
     "MobCowHostileMixin",
     "PlayerMixin",
+    "SlotCraftingMixin",
+    "SlotFurnaceMixin",
     "SurfaceGeneratorOverworldMixin",
     "WorldFeatureClayMixin",
     "WorldFeatureDungeonMixin",
@@ -31,6 +34,7 @@
   "client": [
     "DynamicTexturesMixin",
     "GuidebookSectionMixin",
+    "MinecraftAchievementMixin",
     "PlayerControllerDrillReachMixin",
     "PlayerLocalMixin"
   ],

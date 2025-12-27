@@ -13,6 +13,7 @@ import net.minecraft.core.player.inventory.slot.Slot;
 import net.minecraft.core.util.collection.NamespaceID;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
+import silveon22.deep.DeepAchievements;
 import silveon22.deep.item.DEEPItems;
 
 @Mixin(value = ItemToolSword.class, remap = false)
@@ -46,6 +47,7 @@ public class ItemToolSwordBismuthMixin extends Item {
 					if (grabbedItem.stackSize <= 0) {
 						player.inventory.setHeldItemStack((ItemStack)null);
 					}
+					player.addStat(DeepAchievements.BISMUTH_REPAIR, 1);
 				}
 			}
 

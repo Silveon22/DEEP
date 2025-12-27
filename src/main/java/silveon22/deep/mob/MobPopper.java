@@ -83,8 +83,10 @@ public class MobPopper extends MobCreeper {
 			}
 
 		}
-		double dX = entity.x - this.x;
-		double dZ = entity.z - this.z;
+	}
+
+	public float getSwelling(float partialTick) {
+		return ((float)this.lastActiveTime + (float)(this.timeSinceIgnited - this.lastActiveTime) * partialTick) / 28.0F;
 	}
 
 

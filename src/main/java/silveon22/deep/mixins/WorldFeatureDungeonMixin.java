@@ -50,7 +50,6 @@ public abstract class WorldFeatureDungeonMixin {
 		this.chestLoot.addEntry(new WeightedRandomLootObject(Blocks.SAPLING_THORN.getDefaultStack()), (double)25.0F);
 		this.chestLoot.addEntry(new WeightedRandomLootObject(Items.BUCKET_ICECREAM.getDefaultStack()), (double)25.0F);
 		this.spawnerMonsters.addEntry("Creeper", 1.0);
-		this.spawnerMonsters.addEntry("deep:outback_zombie", (double)1.0F);
 		this.spawnerMonsters.addEntry("deep:werewolf", (double)1.0F);
 		this.spawnerMonsters.addEntry("deep:beetle", (double)1.0F);
 	}

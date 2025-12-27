@@ -288,7 +288,8 @@ public class ChunkDecoratorOverworldMixin {
 			int i = x + rand.nextInt(16);
 			int j = (minY + 24) + rand.nextInt(rangeY / 8);
 			int k = z + rand.nextInt(16);
-			new WorldFeatureHive(DEEPBlocks.blockHoneycomb.id(),0, DEEPBlocks.blockHoneycomb.id(),0,(5 + rand.nextInt(2))).place(world, rand, i, j, k);
+			new WorldFeatureHive(DEEPBlocks.blockHoney.id(), 0,DEEPBlocks.blockHoneycomb.id(),2,(5 + rand.nextInt(2))).place(world, rand, i, j, k);
+//			(new WorldFeatureHiveHoney(12 + rand.nextInt(12), DEEPBlocks.blockHoneycomb)).place(this.world, rand, i, j, k);
 		}
 
 

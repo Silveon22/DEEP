@@ -83,5 +83,29 @@
     "sounds": [
       "mob/snowbomination/hail_launch.ogg"
     ]
+  },
+  "mob.wasp.fly": {
+    "subtitle": "deep.subtitles.mob.wasp.fly",
+    "sounds": [
+      "mob/wasp/fly1.ogg"
+    ]
+  },
+  "mob.wasp.hurt": {
+    "subtitle": "deep.subtitles.mob.wasp.hurt",
+    "sounds": [
+      "mob/wasp/hurt1.ogg"
+    ]
+  },
+  "mob.beetle.say": {
+    "subtitle": "deep.subtitles.mob.beetle.say",
+    "sounds": [
+      "mob/beetle/hurt1.ogg"
+    ]
+  },
+  "mob.beetle.death": {
+    "subtitle": "deep.subtitles.mob.beetle.death",
+    "sounds": [
+      "mob/beetle/death1.ogg"
+    ]
   }
 }

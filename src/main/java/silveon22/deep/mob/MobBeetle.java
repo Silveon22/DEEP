@@ -62,4 +62,17 @@ public class MobBeetle extends MobSpider {
 		}
 	}
 
+	public String getLivingSound() {
+		return "deep:mob.beetle.say";
+	}
+
+	protected String getHurtSound() {
+		return "deep:mob.beetle.say";
+	}
+
+	protected String getDeathSound() {
+		return "deep:mob.beetle.death";
+	}
+
+
 }

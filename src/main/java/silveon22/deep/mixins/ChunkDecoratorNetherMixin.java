@@ -79,7 +79,7 @@ public class ChunkDecoratorNetherMixin {
 			int xm = x + rand.nextInt(16);
 			int ym = minY + rand.nextInt(rangeY - 8) + 4;
 			int zm = z + rand.nextInt(16);
-			(new WorldFeatureOre(DEEPBlocks.netherrackAdamantiteOre.id(), 5)).place(this.world, rand, xm, ym, zm);
+			(new WorldFeatureOre(DEEPBlocks.netherrackAdamantiteOre.id(), 4)).place(this.world, rand, xm, ym, zm);
 		}
 
 		for(int i = 0; i < 5; ++i) {

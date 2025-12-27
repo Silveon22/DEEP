@@ -696,3 +696,51 @@ deep.subtitles.mob.elder.skeleton.death=Elder skeleton death
 deep.subtitles.mob.werewolf.say=Werewolf growls
 deep.subtitles.mob.werewolf.hurt=Werewolf hurt
 deep.subtitles.mob.werewolf.death=Werewolf death
+
+deep.name=DEEP
+achievements.page.deep.desc=Achievements from the depths!
+
+achievement.deep.lead=Neurotoxin
+achievement.deep.lead.desc=Smelt a lead ingot.
+
+achievement.deep.silver=Ooo! Shiny!
+achievement.deep.silver.desc=Smelt a silver ingot.
+
+achievement.deep.amethyst=Amethyst!
+achievement.deep.amethyst.desc=Mine some amethyst ore.
+
+achievement.deep.rhodonite=Pretty In Pink
+achievement.deep.rhodonite.desc=Mine some rhodonite ore in the Nether.
+
+achievement.deep.cryocoal=Temperature Overflow
+achievement.deep.cryocoal.desc=Mine some cryo coal ore in the Nether.
+
+achievement.deep.adamantite=Overpowered
+achievement.deep.adamantite.desc=Mine some adamantite ore in the Nether.
+
+achievement.deep.uranium=Radioactive
+achievement.deep.uranium.desc=Mine some uranium ore.
+
+achievement.deep.bismuth=Good as New
+achievement.deep.bismuth.desc=Repair a tool by right clicking on it with bismuth.
+
+achievement.deep.neapolitan2=Neapolitan 2
+achievement.deep.neapolitan2.desc=Collect every variant of every DEEP stone type.
+
+achievement.deep.honeycomb=Sticky Situation
+achievement.deep.honeycomb.desc=Steal some honeycomb from a wasp hive.
+
+achievement.deep.delve=Diving Deep
+achievement.deep.delve.desc=Go under the surface.
+
+achievement.deep.rockbottom=Rock Bottom
+achievement.deep.rockbottom.desc=Go as deep as possible.
+
+achievement.deep.freezer=Freezer Burnt
+achievement.deep.freezer.desc=Use silver and cryo coal to make a freezer.
+
+achievement.deep.bigone=The Big One
+achievement.deep.bigone.desc=Use a fishing rod and catch the big one.
+
+achievement.deep.huntingseason=Bird Season
+achievement.deep.huntingseason.desc=Kill a chicken with a musket.

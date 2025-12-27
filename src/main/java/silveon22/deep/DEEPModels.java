@@ -22,8 +22,7 @@ import silveon22.deep.colormap.CoralColor;
 import silveon22.deep.item.DEEPItems;
 import silveon22.deep.mob.*;
 import silveon22.deep.mob.model.*;
-import silveon22.deep.mob.renderer.EntityRendererFurnaceBoat;
-import silveon22.deep.mob.renderer.MobRendererTruffle;
+import silveon22.deep.mob.renderer.*;
 import turniplabs.halplibe.helper.ModelHelper;
 import turniplabs.halplibe.util.ModelEntrypoint;
 
@@ -205,7 +204,7 @@ public class DEEPModels implements ModelEntrypoint {
 				.setTex(0, MOD_ID + ":block/mosaic_steve", Side.sides) // setting the texture (don't forget the ':'). 'sides' can be: TOP, BOTTOM, NORTH, SOUTH, EAST, WEST
 			// In resources create a folder 'assets', inside it another folder 'yourmodname', inside it 'textures', inside it 'block'. Inside it put the textures of your blocks with names in snake_case
 		);
-		ModelHelper.setBlockModel(clearGlass, () -> new BlockModelTransparent<>(clearGlass,false).onRenderLayer(1)
+		ModelHelper.setBlockModel(clearGlass, () -> new BlockModelTransparent<>(clearGlass,false)
 				.setTex(0, MOD_ID + ":block/glass_clear", Side.sides) // setting the texture (don't forget the ':'). 'sides' can be: TOP, BOTTOM, NORTH, SOUTH, EAST, WEST
 			// In resources create a folder 'assets', inside it another folder 'yourmodname', inside it 'textures', inside it 'block'. Inside it put the textures of your blocks with names in snake_case
 		);
@@ -1105,6 +1104,10 @@ public class DEEPModels implements ModelEntrypoint {
 			// setting the texture (don't forget the ':'). 'sides' can be: TOP, BOTTOM, NORTH, SOUTH, EAST, WEST
 			// In resources create a folder 'assets', inside it another folder 'yourmodname', inside it 'textures', inside it 'block'. Inside it put the textures of your blocks with names in snake_case
 		);
+		ModelHelper.setBlockModel(blockHoney, () -> new BlockModelTransparent<>(blockHoney,false).onRenderLayer(1)
+				.setTex(0, MOD_ID + ":block/honey", Side.sides) // setting the texture (don't forget the ':'). 'sides' can be: TOP, BOTTOM, NORTH, SOUTH, EAST, WEST
+			// In resources create a folder 'assets', inside it another folder 'yourmodname', inside it 'textures', inside it 'block'. Inside it put the textures of your blocks with names in snake_case
+		);
 	}
 
 	@Override
@@ -1604,10 +1607,11 @@ public class DEEPModels implements ModelEntrypoint {
 		ModelHelper.setEntityModel(MobRedSlime.class, () -> new MobRendererSlime(new ModelSlime(16), new ModelSlime(0), 0.5F));
 		ModelHelper.setEntityModel(MobNoteZombie.class, () -> new MobRendererBiped<>(new ModelNoteZombie(0), 0.5F));
 		ModelHelper.setEntityModel(MobPistonZombie.class, () -> new MobRendererBiped<>(new ModelNoteZombie(0), 0.5F));
+		ModelHelper.setEntityModel(MobWerewolf.class, () -> new MobRendererBiped<>(new ModelWerewolf(0), 0.5F));
 		ModelHelper.setEntityModel(MobWisp.class, () -> new MobRenderer<>(new ModelWisp(), 0.5F));
 		ModelHelper.setEntityModel(MobMotherSpider.class, () -> new MobRenderer<>(new ModelMotherSpider(0), 1.2F));
-		ModelHelper.setEntityModel(MobBeetle.class, () -> new MobRenderer<>(new ModelBeetle(0), 0.8F));
-		ModelHelper.setEntityModel(MobPopper.class, () -> new MobRenderer<>(new ModelPopper(0), 0.5F));
+		ModelHelper.setEntityModel(MobBeetle.class, () -> new MobRendererBeetle());
+		ModelHelper.setEntityModel(MobPopper.class, () -> new MobRendererPopper());
 		ModelHelper.setEntityModel(EntityFurnaceBoat.class, EntityRendererFurnaceBoat::new);
 		ModelHelper.setEntityModel(MobOutbackZombie.class, () -> new MobRendererBiped<>(new ModelOutbackZombie(0), 0.5F));
 		ModelHelper.setEntityModel(MobTruffle.class, () -> new MobRendererTruffle());
@@ -1617,6 +1621,8 @@ public class DEEPModels implements ModelEntrypoint {
 		ModelHelper.setEntityModel(ProjectileHail.class, () -> new EntityRendererSprite<>(TextureRegistry.getTexture(NamespaceID.getTemp(MOD_ID,"item/ammo_hail"))).setScale(2));
 		ModelHelper.setEntityModel(ProjectileBullet.class, () -> new EntityRendererSprite<>(TextureRegistry.getTexture(NamespaceID.getTemp(MOD_ID,"item/ammo_bullet"))));
 		ModelHelper.setEntityModel(ProjectileWeb.class, () -> new EntityRendererSprite<>(TextureRegistry.getTexture(NamespaceID.getTemp("minecraft","block/cobweb"))));
+		ModelHelper.setEntityModel(MobWasp.class, () -> new MobRendererWasp());
+
 	}
 
 	@Override

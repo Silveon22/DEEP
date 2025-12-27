@@ -30,10 +30,10 @@
 		"afterGameStart": [
 			"silveon22.deep.Deep"
 		],
-		"beforeClientStart": [
-			"silveon22.deep.Deep"
+		"beforeClientStart" : [
+			"silveon22.deep.DeepClient"
 		],
-		"afterClientStart": [
+		"afterClientStart" : [
 			"silveon22.deep.Deep"
 		],
 		"afterItemInit": [

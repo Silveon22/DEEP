@@ -25,6 +25,8 @@ public class BiomeOutbackMixin extends Biome {
 		this.spawnableMonsterList.add(new SpawnListEntry(MobMotherSpider.class, 10));
 		this.spawnableMonsterList.add(new SpawnListEntry(MobBeetle.class, 15));
 		this.spawnableMonsterList.add(new SpawnListEntry(MobOutbackZombie.class, 10));
+		this.spawnableMonsterList.add(new SpawnListEntry(MobBanditZombie.class, 10));
+		this.spawnableMonsterList.add(new SpawnListEntry(MobWasp.class, 200));
 
 	}
 }
